@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Typing Speed Test Game</h1>
+    <main>
+      <div class="entete">
+        You Are playing On
+        <select name="difficulty">
+          <option value="easy">Easy</option>
+          <option value="normal">Normal</option>
+          <option value="hard">Hard</option>
+        </select>
+        Level & You Have <span id="time">3</span> Seconds To Type The Word.
+      </div>
+      <div class="start">Start Playing</div>
+      <div class="word-target">Word</div>
+      <input type="text" />
+      <div class="words">Words Will Show Here</div>
+      <footer>
+        <span>Time Left: <span class="seconds-left">0</span> Seconds</span>
+        <span
+          >Score: <span class="score">0</span> From
+          <span class="total-words">30</span></span
+        >
+      </footer>
+      <div class="win">You Won !</div>
+      <div class="lose">
+        Game Over<br />
+
+        <a href="">Repeat Game</a>
+      </div>
+      <input type="hidden" id="hidden" />
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
